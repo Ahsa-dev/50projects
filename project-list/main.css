@@ -1,0 +1,41 @@
+#projects-list {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#projects-list table {
+    font-weight: bolder;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#projects-list table th  {
+    color: darkblue;
+}
+
+#projects-list table td, th {
+    padding: 15px;
+}
+#projects-list table tr {
+    border-top: 1px solid black;
+}
+
+#projects-list table a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#projects-list table .project-done p {
+    color: green;
+}
+
+#projects-list table .project-doing p {
+    color: orange;
+}
+
+#projects-list table .project-undone p {
+    color: red;
+}
