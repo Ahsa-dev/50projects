@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>progress-steps</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+    </head>
+    <body>
+        <div id="progress-steps">
+            <div class="step-container">
+                <div class="progress-bar"></div>
+                <div class="grey-bar"></div>
+                <div class="step active" id="step1"><p>1</p></div>
+                <div class="step" id="step2"><p>2</p></div>
+                <div class="step" id="step3"><p>3</p></div>
+                <div class="step" id="step4"><p>4</p></div>
+            </div>
+            <div class="buttons">
+                <button id="prev-button" class="btn disabled" onclick="handlePrevClick()">Previous</button>
+                <button id="next-button" class="btn" onclick="handleNextClick()">Next</button>
+            </div>
+        </div>
+    </body>
+</html>
