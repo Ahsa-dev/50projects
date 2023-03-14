@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
     var cards = document.querySelectorAll('#expanding-cards .card');
-    console.log(cards);
     cards.forEach(card => card.addEventListener('click', toggleActive));
 });
 
